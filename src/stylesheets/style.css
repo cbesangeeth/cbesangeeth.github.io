@@ -1,0 +1,102 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+h2 {
+    /* margin: 0; */
+}
+
+.nav-menu {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 8%;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: justify;
+    float: left;
+    padding: 16px;
+    /* outline: 1px solid red; */
+}
+
+.nav-menu a:hover{
+    background-color: white;
+    color: #000;
+}
+
+.nav-menu a:focus{
+    background-color: rgb(163, 163, 160);
+    color: #000;
+}
+
+.bg {
+    background-color: #cccccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row-10 {
+    margin-bottom: 10%;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+body {
+    margin: 0%;
+}
+
+.content {
+    background-color: aquamarine
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+}
+
+#home {
+    background-color: rgb(255, 255, 255);
+}
+
+#about {
+    background-color: rgb(239, 241, 109);
+}
+
+#work {
+    background-color: rgb(248, 165, 155);
+}
+
+#education {
+    background-color: rgb(185, 128, 240);
+}
+
+#skills {
+    background-color: rgb(132, 219, 137);
+}
+
+#projects {
+    background-color: rgb(116, 197, 230);
+}
+
+#contact {
+    background-color: rgb(243, 194, 130);
+}
