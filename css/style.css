@@ -1,12 +1,69 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
 
-h1 h2 h3 h4{
+h1 h2 h3 h4 {
     font-weight: 40px;
 }
 
-p{
+p {
     font-weight: 20px;
     font-size: 20px;
+}
+
+hr {
+    margin-top: 0px;
+}
+
+@media(max-width:767px) {}
+
+@media(min-width:768px) {}
+
+@media(min-width:992px) {}
+
+@media(min-width:1200px) {}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    img {
+        max-width: 1150px;
+        /* height: auto; */
+    }
+
+    /* .img-sm{
+        max-height: auto;
+    } */
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    img {
+        max-width: 900px;
+        /* height: auto; */
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    img {
+        max-width: 750px;
+        /* height: auto; */
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    img {
+        max-width: 700px;
+        /* height: auto; */
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    img {
+        max-width: 400px;
+        /* height: auto; */
+    }
 }
