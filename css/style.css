@@ -11,6 +11,15 @@ p {
     font-size: 20px;
 }
 
+/* div {
+    outline: 1px solid orange;
+} */
+
+::selection {
+    background-color:rgb(240, 243, 71)
+    ;
+}
+
 hr {
     margin-top: 0px;
 }
