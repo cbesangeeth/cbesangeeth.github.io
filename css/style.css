@@ -6,6 +6,26 @@ h1 h2 h3 h4 {
     font-weight: 40px;
 }
 
+div#h3underline h3{
+    text-decoration:underline;
+}
+
+div#others p{
+    font-size: 15px;
+}
+
+.row {
+    background-color: rgb(238, 244, 247);
+    /* margin-left: 0px;
+    margin-right: 0px; */
+}
+
+#footer{
+    padding-top: 40px;
+    /* margin-top: 40px; */
+
+}
+
 p {
     font-weight: 20px;
     font-size: 20px;
@@ -16,12 +36,21 @@ p {
 } */
 
 ::selection {
-    background-color:rgb(240, 243, 71)
-    ;
+    background-color: rgb(240, 243, 71);
+}
+
+.div-section {
+    border: var(--border) solid var(--bg-color);
+    /* padding: 10px; */
+    /* background-color: #daeafa; */
+
+    /* margin-right: 20px;
+    margin-bottom: 20px; */
 }
 
 hr {
     margin-top: 0px;
+    border-color: black;
 }
 
 @media(max-width:767px) {}
