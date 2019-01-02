@@ -6,8 +6,12 @@ h1 h2 h3 h4 {
     font-weight: 40px;
 }
 
-div#h3underline h3{
+div.h3underline h3{
     text-decoration:underline;
+
+    /* border-bottom: solid 1px #000000;
+    display: inline;
+    padding-bottom: 2px; */
 }
 
 div#others p{
