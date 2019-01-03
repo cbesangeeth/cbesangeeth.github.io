@@ -35,9 +35,9 @@ p {
     font-size: 20px;
 }
 
-div {
+/* div {
     outline: 1px solid orange;
-}
+} */
 
 ::selection {
     background-color: rgb(240, 243, 71);
