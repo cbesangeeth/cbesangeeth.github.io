@@ -35,9 +35,9 @@ p {
     font-size: 20px;
 }
 
-/* div {
+div {
     outline: 1px solid orange;
-} */
+}
 
 ::selection {
     background-color: rgb(240, 243, 71);
@@ -57,14 +57,6 @@ hr {
     border-color: black;
 }
 
-/* @media(max-width:767px) {}
-
-@media(min-width:768px) {}
-
-@media(min-width:992px) {}
-
-@media(min-width:1200px) {} */
-
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
     img {
@@ -72,9 +64,6 @@ hr {
         height: auto;
     }
 
-    /* .img-sm{
-        max-height: auto;
-    } */
 }
 
 /* Landscape tablets and medium desktops */
@@ -102,11 +91,11 @@ hr {
     }
 
     h1{
-        font-size: 32px;
+        font-size: 25px;
     }
 
     h3{
-        font-size: 22px;
+        font-size: 21px;
     }
 
     p {
@@ -122,13 +111,13 @@ hr {
     }
 
     h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     h3{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     p {
-        font-size: 13px;
+        font-size: 11px;
     }
 }
