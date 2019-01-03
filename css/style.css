@@ -3,7 +3,7 @@ body {
 }
 
 h1 h2 h3 h4 {
-    font-weight: 40px;
+    /* font-weight: 40px; */
 }
 
 div.h3underline h3{
@@ -57,13 +57,13 @@ hr {
     border-color: black;
 }
 
-@media(max-width:767px) {}
+/* @media(max-width:767px) {}
 
 @media(min-width:768px) {}
 
 @media(min-width:992px) {}
 
-@media(min-width:1200px) {}
+@media(min-width:1200px) {} */
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
@@ -80,7 +80,7 @@ hr {
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
     img {
-        max-width: 900px;
+        max-width: 100%;
         /* height: auto; */
     }
 }
@@ -88,7 +88,7 @@ hr {
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
     img {
-        max-width: 750px;
+        max-width: 100%;
         /* height: auto; */
     }
 
@@ -97,7 +97,7 @@ hr {
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
     img {
-        max-width: 700px;
+        max-width: 100%;
         /* height: auto; */
     }
 }
@@ -105,7 +105,7 @@ hr {
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
     img {
-        max-width: 400px;
+        max-width: 100%;
         /* height: auto; */
     }
 }
